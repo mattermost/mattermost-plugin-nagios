@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/mattermost/mattermost-plugin-nagios/go-nagios/nagios"
-	"github.com/mattermost/mattermost-server/v6/plugin"
+	"github.com/mattermost/mattermost/server/public/plugin"
 )
 
 type commandHandlerFunc func(p *Plugin, channelID string, parameters []string) string

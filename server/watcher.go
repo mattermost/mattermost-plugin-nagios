@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/mattermost/mattermost-plugin-nagios/internal/watcher"
-	"github.com/mattermost/mattermost-server/v6/model"
-	"github.com/mattermost/mattermost-server/v6/plugin"
+	"github.com/mattermost/mattermost/server/public/model"
+	"github.com/mattermost/mattermost/server/public/plugin"
 )
 
 func formatChange(change watcher.Change) string {
